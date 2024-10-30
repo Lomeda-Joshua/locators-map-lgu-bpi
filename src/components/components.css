@@ -1,0 +1,119 @@
+.navbar{
+    margin-right:auto;
+    margin-left:auto;
+    padding-left:15%;
+    padding-right:18%;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    row-gap: 20px;;
+    background-color: white;
+}
+
+.navbrand {
+    width:450px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbrand > img {
+    width:50%;
+}
+
+.navlinks > ul {
+    display:flex;
+    gap:40px;
+    list-style-type: none;
+}
+
+.navlinks > ul > li > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size:15px;
+    color: #4F7942;
+    transition: color 0.15s, border-bottom 0.15s;
+}
+
+.navlinks > ul > li > a:hover {
+    color: #1f301a;
+    border-bottom: solid;
+}
+
+
+footer {
+    background-color: #4F7942;
+    padding-top:30px;
+    padding-bottom:10px;
+}
+
+
+.section_conteiner_footer{
+    display:flex;
+    justify-content: start;
+    align-items:flex-end;
+    padding-left:10%;       
+    gap:100px;
+}
+
+
+.footer_container h2{
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    color:white;
+    font-size: 18px;
+}
+
+
+.footer_container img{
+    width:210px;
+}
+
+.footer_container ul{
+    list-style: none;
+    padding-left:0px;
+}
+
+.footer_container ul > li{
+    margin-top:20px;
+}
+
+.footer_container ul > li > a{
+    text-decoration: none;
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    color:white;
+    transition: background-color 0.15s, padding 0.15s;
+}
+
+.footer_container ul > li > a:hover{
+    color:white;
+    background-color: #333333ff;
+    padding:10px;
+}
+
+.credits{
+    padding-left:10%;      
+}
+
+.credits p{
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 13px;
+    color:white;
+}
