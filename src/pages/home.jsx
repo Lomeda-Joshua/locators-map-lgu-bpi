@@ -7,7 +7,7 @@ import Certification from '../assets/clip_art/certification.webp'
 import Event_white from '../assets/clip_art/event-white.webp'
 import Training from '../assets/clip_art/training-icon.webp'
 
-import Map_design from '../assets/vector_map/manila-map-design.png'
+import Manila_map from '../assets/vector_map/manila-map-design.png'
 import Admin_building_1 from '../assets/images/admin-building-1.webp'
 import Admin_building_2 from '../assets/images/admin-building-2.webp'
 import Front_gate from '../assets/images/front-gate-2.webp'
@@ -30,6 +30,7 @@ function home(){
     return(
         <>
             <NavBar />
+            
                 <div className="backdrop_skew"></div>
 
                 <div className="hero_banner_section">
@@ -39,7 +40,7 @@ function home(){
                             <img src={Bpi_logo} alt="bpi-logo" />
                             <h2>Welcome to</h2>
                             <h2>bureau of plant industry</h2>
-                            <button>check the map</button>
+                            <a href={'/locators-map'}>check the map</a>
                         </div>
 
                         <div className="hero_right">
@@ -76,12 +77,12 @@ function home(){
                     <h2>location of the office</h2>
 
                     <div className="image_holder">
-                        <img className="map_design" src={Map_design} alt="map-of-manila" />
+                        <img className="map_manila" src={Manila_map} alt="map-of-manila" />
                     </div>
                     
                     <div className="section_container_location">
                         <div className="container">
-                            <img class="admin_building" onClick="" src={Admin_building_1} alt="admin-building" />
+                            <img className="admin_building" src={Admin_building_1} alt="admin-building" />
                             <h3 className="location_header">the bureau of plant industry</h3>
                             <p>is situated at 692 San Andres Street, Malate, Manila. This strategic location in the capital city of the Philippines places the BPI in a central and accessible position.</p>
                         </div>
@@ -131,55 +132,55 @@ function home(){
 
                 </div>
 
-                <div class="section" id="section_color">
+                <div className="section" id="section_color">
                     <h2>about the locators map</h2>
 
-                    <div class="about_hero_banner">
-                        <div class="text_header">
+                    <div className="about_hero_banner">
+                        <div className="text_header">
                             <img src={Locators_map_logo} alt="locators-map-logo" />
-                            <h3 class="text_header_h3">visit the central office with a guide</h3>
+                            <h3 className="text_header_h3">visit the central office with a guide</h3>
                         </div>
                         <img src={Bpi_compound} alt="bpi-compound" />
                     </div>
                     
 
-                    <div class="section_about_para">
+                    <div className="section_about_para">
 
-                        <div class="about_container">
-                            <div class="image_holder">
+                        <div className="about_container">
+                            <div className="image_holder">
                                 <img src={Pamphlet} alt="pamphlet" />
                             </div>
                             <h3>Overview</h3>
-                            <p class="about_locators_p">The BPI Central Office locators map is a visual representation that pinpoints specific locations, offering an overview of various points of interest within the two BPI compounds. </p>
+                            <p className="about_locators_p">The BPI Central Office locators map is a visual representation that pinpoints specific locations, offering an overview of various points of interest within the two BPI compounds. </p>
                         </div>
 
-                        <div class="about_container">
-                            <div class="image_holder">
+                        <div className="about_container">
+                            <div className="image_holder">
                                 <img src={Map_hexa_piece} alt="locator-map" />
                             </div>
                             <h3>Map highlights</h3>
-                            <p class="about_locators_p">The map highlights key offices and areas, such as the bureau divisions, and administration offices , providing visitors and users with a convenient reference to navigate the BPI Central Office. </p>
+                            <p className="about_locators_p">The map highlights key offices and areas, such as the bureau divisions, and administration offices , providing visitors and users with a convenient reference to navigate the BPI Central Office. </p>
                         </div>
 
-                        <div class="about_container">
-                            <div class="image_holder">
+                        <div className="about_container">
+                            <div className="image_holder">
                                 <img src={Mobile_map} alt="mobile-map" />
                             </div>
                             <h3>Web access and IEC</h3>
-                            <p class="about_locators_p">The maps serve as valuable tool both the website and the tri-fold IEC for seeking essential services, offering a user-friendly and informative images and descriptions to easily identify and locate specific destinations within the map and compounds.</p>
+                            <p className="about_locators_p">The maps serve as valuable tool both the website and the tri-fold IEC for seeking essential services, offering a user-friendly and informative images and descriptions to easily identify and locate specific destinations within the map and compounds.</p>
                         </div>
                         
                     </div>
 
                 </div>
 
-                <div class="section">
+                <div className="section">
 
                     <h2>locators map iec</h2>
-                    <p class="locators_iec_para">grab a copy of the locators map brochure at the information and computer section</p>
+                    <p className="locators_iec_para">grab a copy of the locators map brochure at the information and computer section</p>
 
-                    <div class="image_holder">
-                        <img class="map_iec_art" src={Map_info_sec} alt="map_info_sec" />
+                    <div className="image_holder">
+                        <img className="map_iec_art" src={Map_info_sec} alt="map_info_sec" />
                     </div>
 
                 </div>

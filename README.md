@@ -1,8 +1,9 @@
-# React + Vite
+# Bureau of Plant Industry Locators map project
+This project is made with React JS library as a UI derived project to promote the Locators map tri-fold brochure project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Summary
+First conceptualized in the month of October as a small map project turned to project scale for the BPI promotion.
 
-Currently, two official plugins are available:
+## Deployment
+Initial and testing deployment is hosted in Github pages, soft deployment will be hosted in Internet Information Services for windows.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

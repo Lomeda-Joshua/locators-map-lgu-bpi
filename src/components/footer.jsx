@@ -4,9 +4,9 @@ function footer(){
     return(
         <>
             <footer>
-                <div class="section_conteiner_footer">
+                <div className="section_conteiner_footer">
 
-                    <div class="footer_container">
+                    <div className="footer_container">
                         <img src={Locators_Map_Logo_White} alt="locators-map-logo-white" />
                         <h2>the bureau and the department</h2>
                         <ul>
@@ -16,7 +16,7 @@ function footer(){
                         </ul>
                     </div>
 
-                    <div class="footer_container">
+                    <div className="footer_container">
                         <h2>page information</h2>
                         <ul>
                             <li><a href="#">transparency seal</a></li>
@@ -28,8 +28,8 @@ function footer(){
                 </div>
             
 
-                <div class="credits">
-                    <p>the central office locators map is made and published by the information and computer section | department of agriculture - bureau of plant industry | bpi-ics @ 2023</p>
+                <div className="credits">
+                    <p>the central office locators map is made and published by the information and computer section | department of agriculture - bureau of plant industry</p>
                 </div>
 
             </footer>
