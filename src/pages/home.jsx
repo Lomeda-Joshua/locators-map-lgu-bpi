@@ -24,7 +24,8 @@ import Mobile_map from '../assets/clip_art/mobile_map.webp';
 
 import Map_info_sec from '../assets/clip_art/pamphlet and info sec.webp';
 
-import './pages.css'
+import './pages.css';
+// import './assets/css/main.css';
 
 function home(){
     return(
